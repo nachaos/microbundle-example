@@ -1,0 +1,29 @@
+{
+  "name": "microbundle-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/c.js",
+  "exports": {
+    ".": "./dist/c.js",
+    "./a": "./dist/a.js",
+    "./b": "./dist/b.js"
+  },
+  "scripts": {
+    "build": "microbundle -f cjs src/*.ts --no-compress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nachaos/microbundle-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nachaos/microbundle-example/issues"
+  },
+  "homepage": "https://github.com/nachaos/microbundle-example#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "microbundle": "^0.13.0",
+    "typescript": "^4.1.3"
+  }
+}

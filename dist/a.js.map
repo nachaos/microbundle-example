@@ -1,0 +1,1 @@
+{"version":3,"file":"a.js","sources":["../src/a.ts"],"sourcesContent":["const a = 'a';\n\nexport {\n    a,\n};\n"],"names":["a"],"mappings":"IAAMA,CAAC,GAAG;;;;"}
